@@ -8,21 +8,65 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Documents', link: '/markdown-examples' }
+      { text: 'Documents', link: '/prepare' }
     ],
 
     sidebar: [
       {
         text: 'Installation',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Prepare', link: '/prepare' },
         ]
       }
     ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ReSpringClipsNeko/' }
-    ]
+    ],
+
+    footer: {
+      message: 'ClipsNeko Linux',
+      copyright: 'Copyright © 2026 ReSpring ClipsNeko Co., Ltd.'
+    }
+  },
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en',
+    },
+    zhs: {
+      label: '简体中文',
+      lang: 'zh-Hans',
+      link: '/zhs/',
+      themeConfig: {
+        nav: [
+          { text: '主页', link: './' },
+          { text: '文档', link: './prepare' }
+        ],
+
+        sidebar: [
+          {
+            text: '安装',
+            items: [
+              { text: '准备', link: './prepare' },
+            ]
+          }
+        ],
+
+        socialLinks: [
+          { icon: 'github', link: 'https://github.com/ReSpringClipsNeko/' }
+        ],
+
+        footer: {
+          message: 'ClipsNeko Linux',
+          copyright: 'Copyright © 2026 ReSpring ClipsNeko Co., Ltd.'
+        }
+      }
+    },
+    zht: {
+      label: '繁體中文',
+      lang: 'zh-Hant',
+      link: '/zht/'
+    }
   }
 })
