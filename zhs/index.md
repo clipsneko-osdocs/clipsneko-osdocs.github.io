@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "ClipsNeko Linux Documents"
-  text: "ClipsNeko Linux 文档与 wiki"
+  name: "ClipsNeko Linux"
+  text: "ClipsNeko Linux 文档"
   tagline: ClipsNeko Linux 是一个采用 Hyprland 桌面、有针对 x86_64 架构性能优化的 Linux 发行版
   actions:
     - theme: brand
@@ -15,11 +15,11 @@ hero:
       link: https://github.com/ReSpringClipsNeko/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Hyprland
+    details: 使用 Hyprland 桌面与自主研发的配置，使得 ClipsNeko Linux 简单易用，美观高效。
+  - title: Arch Linux 生态
+    details: 基于 Arch Linux 打造，使得您可以从 Arch Linux 轻而易举切换至 ClipsNeko Linux，而不用放弃 Arch Linux 与 AUR 生态。
+  - title: 性能优化的内核
+    details: linux-clipsneko 基于 zen 内核，
 ---
 
