@@ -16,4 +16,15 @@ layout: doc
 
 ## 使用 Network Manager TUI
 在显示 **Disconnected** 的页面，按下 **Enter** 键，会自动打开 Network Manager TUI, 也就是运行了命令 `nmtui`.
+![](../img/nmtui.webp)
+选择 **Activate a connection**, 之后在 **Wi-Fi** 一栏，就可以看到环境中存在的无线网络的 SSID 了。选择您的网络，然后按 **Enter**，再输入密码……大功告成。
 
+按 **Tab** 切换光标至 **Back**, 然后 **Quit** 以退出 `nmtui`, 之后网络状态会自动刷新。一旦您成功连接网络，就可以进行下一步了。
+
+如果您没有看到任何 SSID, 而您确认附近存在无线网络，这可能是RFKill子系统在软件层面禁用了无线网卡。此时您可以尝试使用 **SUPER + 2** 切换至工作区 2，按 **SUPER + T** 再打开一个 kitty, 使用命令 ->
+```zsh
+sudo rfkill unblock all
+```
+以解除对无线网卡的限制。
+
+按 **SUPER + 1** 切换回工作区 1，退出 `nmtui`, 再重试一次，如果依然不行，很大概率上是您的硬件过新，而 Linux 内核主线驱动树还未支持。这时，您可以寻找社区驱动，或者更换无线网卡。不过，这些都是有一定技术需求的操作。
