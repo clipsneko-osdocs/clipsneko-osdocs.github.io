@@ -14,8 +14,10 @@ export const zhs: DefaultTheme.Config = {
         { text: '准备', link: '/zhs/prepare' },
         { text: '启动安装程序', link: '/zhs/installer' },
         { text: '语言与本地化', link: '/zhs/locale' },
-        { text: '网络设置', link: '/zhs/network'},
-        { text: '镜像选择', link: '/zhs/mirror'},
+        { text: '网络设置', link: '/zhs/network' },
+        { text: '镜像选择', link: '/zhs/mirror' },
+	      { text: '磁盘分区', link: '/zhs/disk' },
+        { text: '选择内核', link: '/zhs/kernel' },
       ]
     }
   ],
