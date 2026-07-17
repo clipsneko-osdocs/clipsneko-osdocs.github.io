@@ -16,8 +16,9 @@ export const zhs: DefaultTheme.Config = {
         { text: '语言与本地化', link: '/zhs/locale' },
         { text: '网络设置', link: '/zhs/network' },
         { text: '镜像选择', link: '/zhs/mirror' },
-	      { text: '磁盘分区', link: '/zhs/disk' },
+	{ text: '磁盘分区', link: '/zhs/disk' },
         { text: '选择内核', link: '/zhs/kernel' },
+	{ text: '选择显卡驱动', link: '/zhs/nvidia' },
       ]
     }
   ],
