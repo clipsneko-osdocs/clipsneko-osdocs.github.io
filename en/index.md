@@ -6,6 +6,7 @@ hero:
   name: "ClipsNeko Linux"
   text: "ClipsNeko Linux Documentation"
   tagline: ClipsNeko Linux is a Linux distribution based on Arch Linux, with a Hyprland desktop and performance optimizations for x86_64.
+  image: ../img/logo.svg
   actions:
     - theme: brand
       text: Documentation
