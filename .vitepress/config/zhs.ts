@@ -21,6 +21,8 @@ export const zhs: DefaultTheme.Config = {
 	      { text: '选择显卡驱动', link: '/zhs/nvidia' },
         { text: '时区设置', link: '/zhs/timezone' },
         { text: '用户设置', link: '/zhs/account' },
+        { text: '主机名设置', link: '/zhs/hostname' },
+        { text: '安装确认', link: '/zhs/summary' },
       ]
     }
   ],
