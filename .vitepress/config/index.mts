@@ -7,6 +7,9 @@ import { zht } from './zht'
 export default defineConfig({
   title: 'ClipsNeko Linux 文档',
   description: 'ClipsNeko Linux 中文文档',
+  head:  [
+    ['link', { rel: 'icon', href: '/logo.svg' }]
+  ],
 
   locales: {
     root: {

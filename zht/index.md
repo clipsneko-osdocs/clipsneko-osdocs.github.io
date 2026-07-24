@@ -6,7 +6,7 @@ hero:
   name: "ClipsNeko Linux"
   text: "ClipsNeko Linux 文件"
   tagline: ClipsNeko Linux 是一個採用 Hyprland 桌面、有針對 x86_64 架構效能最佳化的 Linux 發行版
-  image: ../img/logo.svg
+  image: /logo.svg
   actions:
     - theme: brand
       text: 文件
