@@ -5,8 +5,6 @@ import { zht } from './zht'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'ClipsNeko Linux 文档',
-  description: 'ClipsNeko Linux 中文文档',
   head:  [
     ['link', { rel: 'icon', href: '/logo.svg' }]
   ],
@@ -16,19 +14,22 @@ export default defineConfig({
       label: 'English',
       lang: 'en',
       link: '/en/',
-      themeConfig: en
+      themeConfig: en,
+      title: 'ClipsNeko Linux Documents'
     },
     zhs: {
       label: '简体中文',
       lang: 'zh-Hans',
       link: '/zhs/',
-      themeConfig: zhs
+      themeConfig: zhs,
+      title: 'ClipsNeko Linux 文档',
     },
     zht: {
       label: '繁體中文',
       lang: 'zh-Hant',
       link: '/zht/',
-      themeConfig: zht
+      themeConfig: zht,
+      title: 'ClipsNeko Linux 文件'
     }
   }
 })

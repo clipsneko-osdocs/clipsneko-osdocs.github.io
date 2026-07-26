@@ -4,7 +4,7 @@ import { socialLinks, footer } from './shared'
 export const en: DefaultTheme.Config = {
   nav: [
     { text: 'Home', link: '/en/' },
-    { text: 'Installation Guide', link: '/en/prepare' }
+    { text: 'Docs', link: '/en/prepare' }
   ],
 
   sidebar: [

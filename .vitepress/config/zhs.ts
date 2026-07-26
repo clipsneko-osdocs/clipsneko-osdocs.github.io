@@ -4,7 +4,7 @@ import { socialLinks, footer } from './shared'
 export const zhs: DefaultTheme.Config = {
   nav: [
     { text: '主页', link: '/zhs/' },
-    { text: '安装教程', link: '/zhs/prepare' }
+    { text: '文档', link: '/zhs/prepare' }
   ],
 
   sidebar: [
